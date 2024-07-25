@@ -8,7 +8,7 @@ project:
     - name: Michael A. Mitchell
       email: mmitchell@eoas.ubc.ca
       corresponding: true
-    #   orcid: ORCID
+      orcid: 0000-0001-5070-8793
       affiliation:
         id: ubc
         name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
