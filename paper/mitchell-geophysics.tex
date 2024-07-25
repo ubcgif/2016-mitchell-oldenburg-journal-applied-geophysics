@@ -907,10 +907,10 @@ A first order estimation of the modeling errors due to uncertainties in electrod
 
 Where  $V_{MN}$ is the potential difference between the M and N electrode [V], $I$ in the injection current [A], $\sigma$ is the full-space conductivity [S/m], and $G$ is the geometric factor [$m^{-1}$] which is a function of the electrode separation distances $\overline{AM}$, $\overline{BM}$, $\overline{AN}$, and $\overline{BN}$ [m]. We define $\overline{AM} = \left\| \vec{r}_{A} - \vec{r}_{M} \right\|_{2}$ where $\vec{r}_{A}$ and $\vec{r}_{M}$ are the locations of the A and M electrodes respectively. If the other electrode separation distances are defined similarly we can express the uncertainty of each potential difference measurement ($\delta V_{MN}$) due to perturbations in $\vec{r}_{A}$, $\vec{r}_{B}$, $\vec{r}_{M}$ and $\vec{r}_{N}$ in the following manner.
 
-\begin{multline}
+\begin{equation}
  \delta V_{MN} = \bigg[ (\nabla_{\vec{r}_{A}} V_{MN} \cdot \delta \vec{r}_{A} )^2+ (\nabla_{\vec{r}_{B}} V_{MN} \cdot \delta \vec{r}_{B})^2 + \\ 
  (\nabla_{\vec{r}_{M}} V_{MN} \cdot \delta \vec{r}_{M})^2 + (\nabla_{\vec{r}_{N}} V_{MN} \cdot \delta \vec{r}_{N})^2 \bigg]^{1/2}
-\end{multline}
+\end{equation}
 
 \cite{Oldenborger2005} provide a more thorough discussion on the effects of electrode location errors which account for variations in conductivity.
 
