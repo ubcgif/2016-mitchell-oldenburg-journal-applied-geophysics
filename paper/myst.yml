@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ubcgif-2016-mitchell-oldenburg-applied-geophysics
+  id: ubcgif-2016-mitchell-oldenburg-applied
   title: Data quality control methodologies for large, non-conventional DC resistivity datasets
   description: We developed a more generalized data QC methodology which utilizes statistical analysis and classification tools
   authors:
