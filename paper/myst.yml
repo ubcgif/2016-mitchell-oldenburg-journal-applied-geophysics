@@ -46,5 +46,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      url: JAG_Proof_FinalDraft.pdf
+      url: JAG_Proof_FinalDraft.png
       static: true

@@ -235,11 +235,11 @@ The geometry of the tunnels and the general layout of the electrodes are shown i
     \begin{center}
     \subfigure[Discretized tunnel and electrode geometry]{%
        \label{fig:DataQC_OctreeMesh_ElecGeom}
-       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig2a.pdf}
+       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig2a.png}
        } \\%
     \subfigure[Typical TX with associated RXs]{%
        \label{fig:DataQC_TypicalTx}
-       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig2b.pdf}
+       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig2b.png}
        }
     \end{center}
 \caption{Plot \ref{fig:DataQC_OctreeMesh_ElecGeom} shows the layout of the discretized tunnels (blue resistive cells) on the octree mesh and the location of all 120 electrodes (marked by white spheres) while plot \ref{fig:DataQC_TypicalTx} shows a typical TX (connected with the orange line) and its 349 associated RX electrode pairs (connected with blue lines). Electrodes 1-60 (connected with Cable 1) fall south of the gap in electrodes near the location (20720m, 14900m) while electrodes 61-120 (connected with Cable 2) are north of this gap.}
@@ -263,7 +263,7 @@ Although the large scale conductivity structures in the recovered model seem geo
 
 \begin{figure} [!ht]
     \begin{center}
-    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig3.pdf}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig3.png}
     \end{center}
 \caption{A depth slice through the recovered conductivity model after the 10th inversion iteration. The electrode locations are marked by white dots. While the model seems geologically reasonable its validity is questioned due to the large data misfits shown in \ref{fig:DataQC_FullMisfit}.}
 \label{fig:DataQC_FullInvResult}
@@ -273,11 +273,11 @@ Although the large scale conductivity structures in the recovered model seem geo
     \begin{center}
     \subfigure[]{%
        \label{fig:DataQC_FullMisfitCurve}
-       \includegraphics[trim=0.5cm 0.5cm 1.7cm 1cm, clip=true,width=0.475\linewidth]{./Figures/Fig4a.pdf}
+       \includegraphics[trim=0.5cm 0.5cm 1.7cm 1cm, clip=true,width=0.475\linewidth]{./Figures/Fig4a.png}
        }
     \subfigure[]{%
        \label{fig:DataQC_FullMisfitHist}
-       \includegraphics[trim=0.5cm 0.5cm 1.7cm 1cm, clip=true,width=0.475\linewidth]{./Figures/Fig4b.pdf}
+       \includegraphics[trim=0.5cm 0.5cm 1.7cm 1cm, clip=true,width=0.475\linewidth]{./Figures/Fig4b.png}
        }
     \end{center}
 \caption{\ref{fig:DataQC_FullMisfitCurve} shows the normalized misfit curve for the initial inversion. Near iteration 6 the global misfit plateaus 2 orders of magnitude above the target misfit of 1. A histogram showing the distribution of individual normalized data misfits is shown in panel \ref{fig:DataQC_FullMisfitHist}. The clear spike in the number of data with normalized misfits around 20 shows that a large proportion of the data is fit very poorly by the initial inversion.}
@@ -321,7 +321,7 @@ The goal of the first stage is to identify possible noise sources and select dat
 
 \begin{figure} [!ht]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig5.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig5.png}
 \end{center}
 \caption{Detailed workflow for Stage I.}
 \label{fig:DataQC_workflow_StageI}
@@ -339,11 +339,11 @@ If available, repeat and reciprocal measurements should be analyzed to identify 
 \begin{center}
     \subfigure[]{%
        \label{fig:DataQC_RepRecip_NDR_Hist_Num}
-       \includegraphics[trim=0.2cm 1cm 2cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig6a.pdf}
+       \includegraphics[trim=0.2cm 1cm 2cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig6a.png}
        }%
     \subfigure[]{%
        \label{fig:DataQC_RepRecip_NDR_Hist_Perc}
-       \includegraphics[trim=0.2cm 1cm 2cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig6b.pdf}
+       \includegraphics[trim=0.2cm 1cm 2cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig6b.png}
        }
 \end{center}
 \caption{These histograms show the distribution of normalized data residuals ($\tilde{r}$) for all 7,109 repeat/reciprocal pairs identified in the dataset. \ref{fig:DataQC_RepRecip_NDR_Hist_Num} shows the total number of repeat/reciprocal pairs in each $\tilde{r}$ bin while \ref{fig:DataQC_RepRecip_NDR_Hist_Perc} shows them as a percentage of the total number of repeat or reciprocal measurement pairs. For both repeat and reciprocal data approximately $15 - 20\%$ of the pairs have $\tilde{r} > 15$.}
@@ -362,19 +362,19 @@ For the first SVD analysis test, a number of data by number of electrodes indica
     \begin{center}
     \subfigure[\tiny{SVD Electrode Analysis: High Misfit Data}]{%
        \label{fig:DataQC_SVD_Elec_Bad}
-       \includegraphics[trim=1.6cm 0.65cm 2.1cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7a.pdf}
+       \includegraphics[trim=1.6cm 0.65cm 2.1cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7a.png}
        } %
     \subfigure[\tiny{SVD Electrode Analysis: Low Misfit Data}]{%
        \label{fig:DataQC_SVD_Elec_Good}
-       \includegraphics[trim=1.6cm 0.65cm 2.1cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7b.pdf}
+       \includegraphics[trim=1.6cm 0.65cm 2.1cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7b.png}
        } \\%
     \subfigure[\tiny{SVD Cable Analysis: High Misfit Data}]{%
        \label{fig:DataQC_SVD_Cable_Bad}
-       \includegraphics[trim=1.6cm 0.65cm 2cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7c.pdf}
+       \includegraphics[trim=1.6cm 0.65cm 2cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7c.png}
        } %
     \subfigure[\tiny{SVD Cable Analysis: Low Misfit Data}]{%
        \label{fig:DataQC_SVD_Cable_Good}
-       \includegraphics[trim=1.6cm 0.65cm 2cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7d.pdf}
+       \includegraphics[trim=1.6cm 0.65cm 2cm 1.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig7d.png}
        } \\%
     \end{center}
 \caption{Panels \ref{fig:DataQC_SVD_Elec_Bad} and \ref{fig:DataQC_SVD_Elec_Good} show the singular vectors from the SVD factorization of the high and low data misfit indicator matrices, from the electrode SVD analysis while \ref{fig:DataQC_SVD_Cable_Bad} and \ref{fig:DataQC_SVD_Cable_Good} show the singular vectors from the cable SVD analysis. In both tests that first singular value is considerably larger that the remaining singular values. The results of these tests show that electrodes 1-60, connected with Cable 1, are more often associated with high misfit data than electrodes 61-120 or Cable 2.}
@@ -391,43 +391,43 @@ Each column of the boxplot shows the distribution of misfits associated with dat
     \begin{center}
     \subfigure[Full Dataset]{%
        \label{fig:Boxplot_Full_DataMisfit_vs_MElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8a.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8a.png}
        } %
     \subfigure[ABMN-Cable 1]{%
        \label{fig:Boxplot_ABMN_Cable1_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8b.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8b.png}
        } \\%
     \subfigure[ABMN-Cable 2]{%
        \label{fig:Boxplot_ABMN_Cable2_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8c.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8c.png}
        } %
     \subfigure[AB-Cable 1, MN-Cable 2]{%
        \label{fig:Boxplot_AB_Cable1_MN_Cable2_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8d.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8d.png}
        } \\%
     \subfigure[AB-Cable 2, MN-Cable 1]{%
        \label{fig:Boxplot_AB_Cable2_MN_Cable1_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8e.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8e.png}
        } %
     \subfigure[AB-Cable 1, MN-Mixed]{%
        \label{fig:Boxplot_AB_Cable1_MN_Mixed_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8f.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8f.png}
        } \\%
     \subfigure[AB-Cable 2, MN-Mixed]{%
        \label{fig:Boxplot_AB_Cable2_MN_Mixed_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8g.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8g.png}
        } %
     \subfigure[AB-Mixed, MN-Cable 1]{%
        \label{fig:Boxplot_AB_Mixed_MN_Cable1_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8h.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8h.png}
        } \\%
     \subfigure[AB-Mixed, MN-Cable 2]{%
        \label{fig:Boxplot_AB_Mixed_MN_Cable2_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8i.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8i.png}
        } %
     \subfigure[AB-Mixed, MN-Mixed]{%
        \label{fig:Boxplot_AB_Mixed_MN_Mixed_Misfit_vs_M_ElecID}
-       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8j.pdf}
+       \includegraphics[trim=1.6cm 1.7cm 2cm 1.3cm, clip=true,width=0.475\linewidth]{./Figures/Fig8j.png}
        } %
     \end{center}
 \caption{A series of boxplot diagrams which show the distribution of the normalized data misfits associated with each electrode when it is used as an M potential electrode. These plots clearly show that current leakages in the switch cables or connection boxes which link the electrodes to the central control box are the primary source of noise in this dataset. The current leakages are more severe in Cable 1 which connects electrodes 1-60 than in Cable 2 which connects electrodes 61-120.}
@@ -442,11 +442,11 @@ By separating the data into subsets based on which cable the TX dipole and RX di
     \begin{center}
     \subfigure{%
        \label{fig:CableSplit_Cluster_PropBoxPlot1}
-       \includegraphics[trim=0cm 1.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig9a.pdf}
+       \includegraphics[trim=0cm 1.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig9a.png}
        } \\%
     \subfigure{%
        \label{fig:CableSplit_Cluster_PropBoxPlot2}
-    \includegraphics[trim=0cm 0.3cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig9b.pdf}
+    \includegraphics[trim=0cm 0.3cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig9b.png}
        } %
     \end{center}
 \caption{A series of boxplots which show the distribution of various data parameters in each of the cable based subsets. From these distributions it is possible to roughly characterize the signature of those data which are most contaminated by current leakages.}
@@ -506,7 +506,7 @@ Although we have identified several sources of noise and removed some of the mos
 
 \begin{figure} [!ht]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig10.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig10.png}
 \end{center}
 \caption{General cluster analysis workflow.}
 \label{fig:DataQC_workflow_ClusterAnalysis}
@@ -516,7 +516,7 @@ To remove some of the subjectivity from the search for correlations between surv
 
 \begin{figure} [!ht]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig11.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig11.png}
 \end{center}
 \caption{Detailed workflow for Stage II.}
 \label{fig:DataQC_workflow_StageII}
@@ -530,11 +530,11 @@ Choosing the optimal number of clusters is a topic of interest in machine learni
     \begin{center}
     \subfigure[]{%
        \label{fig:AB_Mixed_MN_Cable2_Vmn_vs_I_Cluster}
-       \includegraphics[trim=0.3cm 0.7cm 1.5cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig12a.pdf}
+       \includegraphics[trim=0.3cm 0.7cm 1.5cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig12a.png}
        } %
     \subfigure[]{%
        \label{fig:AB_Mixed_MN_Cable2_Vab_vs_I_Cluster}
-       \includegraphics[trim=0.3cm 0.7cm 1.5cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig12b.pdf}
+       \includegraphics[trim=0.3cm 0.7cm 1.5cm 1.8cm, clip=true,width=0.475\linewidth]{./Figures/Fig12b.png}
        } %
     \end{center}
 \caption{Plots showing the distribution of data clustering results, from the AB-Mixed, MN-Cable2 subset, in two different variable spaces. Analyzing the visual distribution of the clusters can be useful for identifying patterns and characterizing clusters which contain suspicious data.}
@@ -545,11 +545,11 @@ Choosing the optimal number of clusters is a topic of interest in machine learni
     \begin{center}
     \subfigure{%
        \label{fig:AB_Mixed_MN_Cable2_Cluster_PropBoxPlot1}
-       \includegraphics[trim=1cm 1.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig13a.pdf}
+       \includegraphics[trim=1cm 1.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig13a.png}
        } \\%
     \subfigure{%
        \label{fig:AB_Mixed_MN_Cable2_Cluster_PropBoxPlot2}
-    \includegraphics[trim=1cm 0.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig13b.pdf}
+    \includegraphics[trim=1cm 0.5cm 2cm 2cm, clip=true,width=0.86\linewidth]{./Figures/Fig13b.png}
        } %
     \end{center}
 \caption{Boxplots showing the distribution of survey parameters in each cluster from the the AB-Mixed, MN-Cable2 subset. High normalized misfits and the characteristic signatures of noise sources identified in Stage I allow us to identify contaminated clusters.}
@@ -562,7 +562,7 @@ After clustering the data, each of the clusters are then inverted independently.
 
 \begin{figure} [h!]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig14.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig14.png}
 \end{center}
 \caption{Hypothetical cluster tree diagram showing the verified clusters with a check and the discarded clusters with a X. Each color denotes a cluster and its possible sub-clusters.}
 \label{fig:ClusterTree}
@@ -577,7 +577,7 @@ It is important to stress that at this stage we are only checking the self-consi
 
 \begin{figure} [!ht]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.8\linewidth]{./Figures/Fig15.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.8\linewidth]{./Figures/Fig15.png}
 \end{center}
 \caption{Detailed workflow for Stage III.}
 \label{fig:DataQC_workflow_StageIII}
@@ -617,7 +617,7 @@ Table \ref{tab:DataSubsetSizes} shows the sizes of the data subsets, which were 
 
 \begin{figure} [!ht]
 \begin{center}
-   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig16.pdf}
+   \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.75\linewidth]{./Figures/Fig16.png}
 \end{center}
 \caption{Detailed workflow for Stage IV.}
 \label{fig:DataQC_workflow_StageIV}
@@ -637,11 +637,11 @@ When you compare the inversion results from the full dataset (Figure \ref{fig:Ca
     \begin{center}
     \subfigure[Initial Model]{%
        \label{fig:CaseStudy_InvMod_Full}
-       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig17a.pdf}
+       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig17a.png}
        } \\%
     \subfigure[post-QC Model]{%
        \label{fig:CaseStudy_InvMod_Final}
-       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig17b.pdf}
+       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig17b.png}
        } %
     \end{center}
 \caption{Depth sections from the initial inversion model (panel \ref{fig:CaseStudy_InvMod_Full}) where the full dataset was used, and the  post-QC inversion model (panel \ref{fig:CaseStudy_InvMod_Final}). While many of the conductive anomalies in the initial inversion model bleed together to form a large diffuse region of high conductivity the post-QC inversion model contains 6 notable conductive anomalies (refer to the text for a full interpretation). In this figure the thin black lines through the central portion of the model mark the outline of a former tunnel which was sealed off to stem the inflow of water, and the $\bigoplus$ symbols mark possible locations where water may be seeping down into the salt from the aquifer above.}
@@ -650,7 +650,7 @@ When you compare the inversion results from the full dataset (Figure \ref{fig:Ca
 
 \begin{figure} [!ht]
 	\begin{center}
-	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig18.pdf}
+	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig18.png}
 	\end{center}
 \caption{Normalized data misfit curves from the initial inversion and the post-QC inversion. While the initial inversion struggles to fit the observed data the inversion of the post-QC data subset reached target misfit after 10 iterations.}
 \label{fig:CaseStudy_Inv_MisfitPlots}
@@ -667,7 +667,7 @@ To quantify the resolution of our model we used a probing technique, studied by 
 \begin{figure} [!ht]
     \begin{center}
        \label{fig:ModRes_CableSplitCombined_Final_z2586}
-       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig19.pdf}
+       \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true,width=0.95\linewidth]{./Figures/Fig19.png}
     \end{center}
 \caption{A plot showing the approximate model resolution for the depth section shown in Figure \ref{fig:CaseStudy_InvMod}. Higher resolution areas are focused around electrodes 61-120 which are connected with Cable 2. In the z-direction, only a small decrease in resolution is observed out to about 10m above or below the main tunnel level suggesting that structures within this region are constrained by the data.}
 \label{fig:ModRes_CableSplitCombined_Final}
@@ -682,11 +682,11 @@ To further test the applicability of our data QC methodology we tested it on a s
     \begin{center}
     \subfigure[True Model]{%
        \label{fig:Synth_Horseshoe_RefMod}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig20a.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig20a.png}
        } %
     \subfigure[Recovered Model]{%
        \label{fig:Synth_Horseshoe_InvMod}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig20b.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig20b.png}
        } %
     \end{center}
 \caption{A baseline synthetic study which shows how well the inversion is able to recover the conductive block under normal noise conditions, in which 5\% Gaussian noise was add to the forward modeled data. Both panels show depth slices through the model, which cut through the center of the tunnels and conductive block.}
@@ -703,19 +703,19 @@ For the bad electrodes trial, characteristic noise models derived from the best 
     \begin{center}
     \subfigure[Full Dataset]{%
        \label{fig:Synth_Horseshoe_BadElec_Full}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21a.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21a.png}
        } %
     \subfigure[Removed Electrodes 5 and 24]{%
        \label{fig:Synth_Horseshoe_BadElec_No5_24}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21b.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21b.png}
        } \\%
     \subfigure[Clustering (Stage III)]{%
        \label{fig:Synth_Horseshoe_BadElec_Clust}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21c.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21c.png}
        } %
     \subfigure[Clustering (Final)]{%
        \label{fig:Synth_Horseshoe_BadElec_ClustFinal}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21d.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig21d.png}
        } %
     \end{center}
 \caption{Inversion results from the bad electrodes trial. The panels show the progression of the recovered model at different stages of the data QC process. Although good results are attained by removing all measurements associated with electrodes 5 and 24, clustering analysis produces a model which utilizes nearly 8,600 more data and better resolves the shape of the conductive block.}
@@ -749,7 +749,7 @@ If all of the data associated with a specific electrode are believed to be highl
 
 \begin{figure} [!ht]
 	\begin{center}
-	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig22.pdf}
+	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig22.png}
 	\end{center}
 \caption{This graph shows normalized data misfit curves for inversion results of the synthetic bad electrodes trial. While the inversion struggles to fit the full dataset the data QC methodology dramatically reduces the misfit so that misfits reach target levels for the subset in which all data associated with electrodes 5 and 24 were removed and the final dataset derived using clustering analysis.}
 \label{fig:Synth_Horseshoe_BadElec_MisfitPlots}
@@ -764,19 +764,19 @@ In this trial there are radical changes in the recovered model from the initial 
     \begin{center}
     \subfigure[Full Dataset]{%
        \label{fig:Synth_Horseshoe_BadCable_Full}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23a.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23a.png}
        } %
     \subfigure[Clustering (Stage IV, Round I)]{%
        \label{fig:Synth_Horseshoe_BadCable_ClustStg2}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23b.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23b.png}
        } \\%
     \subfigure[Clustering (Stage IV, Round II)]{%
        \label{fig:Synth_Horseshoe_BadCable_ClustStg3}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23c.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23c.png}
        } %
     \subfigure[Clustering (Final)]{%
        \label{fig:Synth_Horseshoe_BadCable_ClustFinal}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23d.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig23d.png}
        } %
     \end{center}
 \caption{These figures shows the incremental improvements in the recovered model after each round of clustering analysis for the highly noise-contaminated data in the bad cable trial. As the highly contaminated or inconsistent data are filtered out or the uncertainties are adjusted the location of the conductive anomaly shifts closer to the true location of the conductive block and many of the small scale artifacts disappear.}
@@ -808,7 +808,7 @@ The normalized data misfit curves in Figure \ref{fig:Synth_Horseshoe_BadCable_Mi
 
 \begin{figure} [!ht]
 	\begin{center}
-	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig24.pdf}
+	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig24.png}
 	\end{center}
 \caption{Normalized data misfit curves, for the bad cable trial, that show the improvements in data fit with each round of clustering analysis. Due to the very high noise levels the misfit curves are fairly flat. The inversion of the final clustering subset is able to reach target misfit after 7 iterations.}
 \label{fig:Synth_Horseshoe_BadCable_MisfitPlots}
@@ -826,19 +826,19 @@ When the clustering analysis was carried out on the full dataset, a final qualit
     \begin{center}
     \subfigure[True Model]{%
        \label{fig:Synth_Horseshoe_UniInfrastructure_RefMod}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25a.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25a.png}
        } %
     \subfigure[Full Dataset]{%
        \label{fig:Synth_Horseshoe_UniInfrastructure_InvMod_Full}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25b.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25b.png}
        } \\%
     \subfigure[Removed Electrodes 16-20]{%
        \label{fig:Synth_Horseshoe_UniInfrastructure_InvMod_NoElec16to20}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25c.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25c.png}
        } %
     \subfigure[Clustering (Final)]{%
        \label{fig:Synth_Horseshoe_UniInfrastructure_InvMod_Clustering}
-       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25d.pdf}
+       \includegraphics[trim=3.35cm 3.6cm 11.95cm 5.4cm, clip=true,width=0.475\linewidth]{./Figures/Fig25d.png}
        } %
     \end{center}
 \caption{A series of panels showing the results of the simulated infrastructure trial. While electrodes 16-20, which were closest to the pipe-like structure could be identified and removed as troublesome electrodes in Stage I of the data QC process clustering analysis leads to the removal of far fewer data. While nearly all evidence of the infrastructure have been removed from the inversion of the dataset without data from electrodes 16-20 the inversion of the final clustering dataset still prominently shows the location of the pipe. Trade-offs between improved model resolution due to better data coverage and possible interpretation complications related to infrastructure based anomalies need to be considered when processing the data.}
@@ -870,7 +870,7 @@ Normalized data misfit curves are shown in Figure \ref{fig:Synth_Horseshoe_UniIn
 
 \begin{figure} [!ht]
 	\begin{center}
-	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig26.pdf}
+	\includegraphics[trim=1.3cm 0.2cm 2.6cm 1.2cm, clip=true,width=0.75\linewidth]{./Figures/Fig26.png}
 	\end{center}
 \caption{Normalized data misfit curves for the simulated infrastructure trial which show that both the final clustering inversion and the inversion of the dataset with measurements from electrodes 16-20 removed are able to reach target misfit where the inversion of the full dataset struggles to fit the signal associated with the pipe-like conductor.}
 \label{fig:Synth_Horseshoe_UniInfrastructure_MisfitPlots}
