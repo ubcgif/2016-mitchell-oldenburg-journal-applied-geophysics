@@ -1,43 +1,45 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2016-mitchell-oldenburg-applied
+  title: Data quality control methodologies for large, non-conventional DC resistivity datasets
+  description: We developed a more generalized data QC methodology which utilizes statistical analysis and classification tools
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
+    - name: Michael A. Mitchell
+      email: mmitchell@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-5070-8793
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Douglas W. Oldenburg
+      email: doug@eoas.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: 10.1016/j.jappgeo.2016.09.018
   # arxiv: ARXIV
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 2016-09-18 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
+  banner: banner.png
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Journal of Applied Geophysics
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0926985116303020
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2016/04/14
+    accepted: 2016/09/14
+    published: 2016/09/18
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - DC resistivity (ERT/ERI)
+    - Data Quality Control
+    - 3D Inversion
+    - Data Clustering
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    QC: Quality Control
+    DC: Direct Current
+    TX: Transmitter
+    RX: Receiver
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +47,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: JAG_Proof_FinalDraft.png
       static: true
